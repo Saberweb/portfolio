@@ -1,7 +1,7 @@
 <?php
 require_once "config.php";
 if (!isset($_GET['pages'])) {
-    include_once "accueil.php";
+    include_once "pages/accueil.php";
 } else {
     switch ($_GET['pages']) {
         case "cv":
