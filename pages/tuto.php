@@ -22,7 +22,17 @@
 
     <h1>Bienvenue sur notre page de tutoriel</h1>
 
-    <img src="images/C:\Users\saber\OneDrive\Bureau\portfolio1\portfolio\images>
+    <h3> Comment dessiner avec l’API de dessin et d’animation (Canvas)</h3>
+    <a id="paragraphe1">Vous trouverez ci dessous 2 tutos vidéos youtube sur la création d'animation canvas </a>
+
+    <ul class="liens">
+        <li><a href="https://www.youtube.com/watch?v=Rcqu3V1Hw-E">Comment utiliser l API JavaScript Canvas pour dessiner</a></li>
+        <li><a href="https://www.youtube.com/watch?v=rm_Q0_uwk6w">Animations JavaScript avec l'HTML Canvas</a></li>
+    </ul>
+
+    <canvas id="canvas"> </canvas>
+    <script src="app.js"></script>
+
 
 </body>
 

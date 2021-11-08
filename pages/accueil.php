@@ -13,12 +13,12 @@
 
 <body>
     <header>
-        <h1>Portfolio</h1>
+        <h1 div="titre">Portfolio</h1>
     </header>
     <?php
     include "menu.php";
     ?>
-    <h1>Bienvenue sur la page d'accueil de notre site</h1>
+    <h1 div="titre">Bienvenue sur la page d'accueil de notre site</h1>
     <div class="conteneur">
 
         <p>Je vous souhaite la bienvenue sur mon site portfolio !</p>

@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/fond2.jpg");
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -7,9 +7,11 @@ body {
 nav {
   width: 90%;
   margin: 20px auto 40px auto;
-  background-color: white;
+  background-color: whitesmoke;
   position: sticky;
   top: 0px;
+  border-radius: 10px, 10px, 10px, 10px;
+  background-image: url("images/background2.jpg");
 }
 
 nav ul {
@@ -40,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-  color: orange;
+  color: orangered;
   border-bottom: 2px solid orange;
 }
 
@@ -49,12 +51,14 @@ nav a:hover {
 }
 
 h1 {
-  color: beige;
+  color: white;
   text-align: center;
   font-weight: bolder;
   font-size: 45px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-shadow: 0 0 3px cornsilk;
+}
+h2 {
 }
 .texte1 {
   width: 60ch;
@@ -70,4 +74,20 @@ h1 {
   margin-left: 80px;
   margin-right: auto;
   padding: 20px;
+}
+h3 {
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 0 0 3px cornsilk;
+}
+#paragraphe1 {
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 0 0 3px cornsilk;
 }
