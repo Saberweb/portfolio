@@ -1,6 +1,7 @@
 body {
-  background-color: black;
-  background-repeat: no-repeat;
+  background: #355c7d;
+  background: -webkit-linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+  background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
   background-size: cover;
 }
 
@@ -8,10 +9,10 @@ nav {
   width: 90%;
   margin: 20px auto 40px auto;
   background-color: whitesmoke;
-  position: sticky;
+
   top: 0px;
   border-radius: 10px, 10px, 10px, 10px;
-  background-image: url("images/background2.jpg");
+  background-color: transparent;
 }
 
 nav ul {
@@ -42,52 +43,270 @@ nav a {
 }
 
 nav a:hover {
-  color: orangered;
+  border-radius: 41px;
+  background: linear-gradient(145deg, #355c7d, #6c5b7b, #c06c84);
+  box-shadow: 12px 12px 24px #6c6c6c, -12px -12px 24px #ffffff;
+}
+
+nav a:hover {
+  color: white;
   border-bottom: 2px solid orange;
 }
 
-.conteneur {
-  margin: 0px 20px;
+h1 {
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 0 0 3px cornsilk;
+  border: 4px rgb(168, 202, 252) solid;
+  border-radius: 30px / 10px;
+  box-shadow: 6px 6px 10px white;
+}
+h2 {
+  color: rgb(168, 202, 252);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 45px;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0 0 3px;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
-h1 {
-  color: white;
+h3 {
+  color: whitesmoke;
   text-align: center;
   font-weight: bolder;
   font-size: 45px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-shadow: 0 0 3px cornsilk;
 }
-h2 {
+h4 {
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 0 0 3px cornsilk;
 }
+
 .texte1 {
   width: 60ch;
 }
-.conteneur {
-  color: white;
-  font-weight: bolder;
-  text-align: center;
-}
-#image1 {
+.pacceuill {
   display: block;
-  width: 400px;
-  margin-left: 80px;
-  margin-right: auto;
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  margin-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border: 4px rgb(168, 202, 252) solid;
+  border-radius: 30px / 10px;
+  box-shadow: 6px 6px 10px whitesmoke;
 }
-h3 {
-  color: white;
+
+.paragrapheAcc {
+  display: block;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  border: 4px rgb(168, 202, 252) solid;
+  border-radius: 30px / 10px;
+  box-shadow: 6px 6px 10px whitesmoke;
+}
+
+.pacceuill a:hover {
+  border-radius: 41px;
+  background: linear-gradient(145deg, #355c7d, #6c5b7b, #c06c84);
+  box-shadow: 12px 12px 24px #6c6c6c, -12px -12px 24px #ffffff;
+}
+
+/* .paragraphe1 {
+  background-color: grey;
+  color: whitesmoke;
   text-align: center;
   font-weight: bolder;
   font-size: 45px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  text-shadow: 0 0 3px cornsilk;
-}
-#paragraphe1 {
-  color: white;
+  text-shadow: 0 0 3px whitesmoke;
+} */
+#grille {
   text-align: center;
-  font-weight: bolder;
-  font-size: 45px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  text-shadow: 0 0 3px cornsilk;
+  background-color: black;
+  border: 4px black solid;
+  border-radius: 30px / 10px;
+  box-shadow: 6px 6px 10px;
+  margin-left: 550px;
+  margin-right: 550px;
+  margin-bottom: 101px;
+}
+
+#msg_contenu a:hover {
+  color: rgb(112, 8, 8);
+}
+
+#msg_mail {
+  width: 200px;
+  height: 50px;
+}
+#msg_sujet {
+  width: 200px;
+  height: 50px;
+}
+#msg_contenu.zone_msg {
+  width: 200px;
+  height: 100px;
+}
+
+a[title] {
+  color: white;
+}
+a:hover {
+  color: white;
+}
+
+p {
+  font-size: 1.7em;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+.image1 {
+  float: left;
+}
+* {
+  color: white;
+}
+input:focus {
+  background-color: salmon;
+}
+
+.head {
+  background-color: black;
+}
+a {
+  height: 30px;
+}
+
+#portfolio {
+  color: whitesmoke;
+}
+.div_input_form {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.liens2 :hover {
+  background: linear-gradient(145deg, #355c7d, #6c5b7b, #c06c84);
+  box-shadow: 12px 12px 24px #6c6c6c, -12px -12px 24px #ffffff;
+}
+
+.reseaux {
+  margin: 0;
+  font-size: 50px;
+}
+.reseauxUl {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.reseauxLi {
+  font-size: 100px;
+  border-radius: 54px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 18px 18px 36px #5a5a5a, -18px -18px 36px #ffffff;
+}
+.reseauxLi a:hover {
+  box-shadow: inset 5px 5px 5px white;
+  inset: -5px -5px 5px;
+}
+.portfolioliens a:hover {
+  border-radius: 41px;
+  background: linear-gradient(145deg, #355c7d, #6c5b7b, #c06c84);
+  box-shadow: 12px 12px 24px #6c6c6c, -12px -12px 24px #ffffff;
+}
+.video1 {
+  height: 350px;
+  border: 4px rgb(168, 202, 252) solid;
+  border-radius: 30px / 10px;
+  box-shadow: 6px 6px 10px whitesmoke;
+}
+.video1 a :hover {
+  border-radius: 41px;
+  background: linear-gradient(145deg, #355c7d, #6c5b7b, #c06c84);
+  box-shadow: 12px 12px 24px #6c6c6c, -12px -12px 24px #ffffff;
+}
+
+.video2 {
+  border: 4px rgb(168, 202, 252) solid;
+  border-radius: 30px / 10px;
+  box-shadow: 6px 6px 10px whitesmoke;
+  margin-top: 50px;
+}
+
+.titreAp {
+  margin-left: 312px;
+  margin-right: 312px;
+}
+
+p.analyse1 {
+  overflow: scroll;
+  width: 500px;
+  height: 350px;
+  border-radius: 30px, 10px;
+  margin-left: 800px;
+  margin-bottom: 200px;
+  padding-bottom: 100px;
+}
+
+.analyse2 {
+  overflow: scroll;
+  width: 500px;
+  height: 350px;
+  border-radius: 30px, 10px;
+  margin-left: 800px;
+  padding-bottom: -600px;
+}
+
+.galerie {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.galerie img {
+  border: 2px solid black;
+  padding: 5px;
+  width: 50%;
+  height: auto;
+}
+
+.galerie figcaption {
+  text-align: center;
+  font-size: 18px;
+}
+
+.galerie {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  margin: 20px auto;
+}
+.pptuto {
+  text-align: center;
+}
+.pptuto1 {
+  text-align: center;
 }

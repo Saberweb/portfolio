@@ -18,7 +18,7 @@
     <?php
     include "menu.php";
     ?>
-    <h1>Bienvenue sur la page de mon cv</h1>
+    <h2>Bienvenue sur la page de mon cv</h2>
 </body>
 
 </html>

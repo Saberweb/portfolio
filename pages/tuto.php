@@ -20,18 +20,65 @@
     include "menu.php";
     ?>
 
-    <h1>Bienvenue sur notre page de tutoriel</h1>
+    <h2>Bienvenue sur notre page de tutoriel</h2>
 
-    <h3> Comment dessiner avec l’API de dessin et d’animation (Canvas)</h3>
-    <a id="paragraphe1">Vous trouverez ci dessous 2 tutos vidéos youtube sur la création d'animation canvas </a>
+    <div class="titreAp">
+        <p> Comment dessiner avec l’API de dessin et d’animation (Canvas)?</p>
+    </div>
 
-    <ul class="liens">
-        <li><a href="https://www.youtube.com/watch?v=Rcqu3V1Hw-E">Comment utiliser l API JavaScript Canvas pour dessiner</a></li>
-        <li><a href="https://www.youtube.com/watch?v=rm_Q0_uwk6w">Animations JavaScript avec l'HTML Canvas</a></li>
-    </ul>
+    <p class="pptuto">Voici à votre disposition deux vidéos tutoriel sur l'API Canvas que j'ai analyser.</br> Vous trouverez ma critique à coté de chaque vidéo et en bonus ma propre analyse et définition de l'API. </p>
+
+    <p class="pptuto1">Enjoy! </p>
+
+    <h4>J'ai reproduis grace au tuto une petite animation pour que vous puissiez vous faire une des nombreuse chose que vous pouvez produire avec Canvas </h4>
 
     <canvas id="canvas"> </canvas>
+
+    <div id="video">
+
+        <ul class="liens">
+            <iframe class="video1" width="650" height="315" src="https://www.youtube.com/embed/FDBHLX5HFn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+            <p class="analyse1">Tutoriel n°1</br>
+                Après avoir essayé plusieurs tuto afin de comprendre l’API canvas je suis tombé sur celui-ci et je vous le recommande à 100% je l’ai trouvé très claire très concis.</br>
+                La personne qui à réaliser ce tuto donne également des cours en ligne pour approfondir le sujet et je trouve sa géniale pour les personnes que sa intéresse.</br>
+                Sinon j’ai également apprécier la qualité audio visuelle.
+
+
+            </p>
+    </div>
+
+    <div id="video_2">
+
+        <ul>
+            <iframe class="video2" width="650" height="315" src="https://www.youtube.com/embed/rm_Q0_uwk6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </ul>
+
+        <p class="analyse2">Tutoriel n°2</br>
+            Ce tutoriel ma parus beaucoup moins bien explicatif par rapport au premier mais il reste également très instructif.</br>
+            Il est également moins concis par rapport au premier et moins complet.</br>
+            Je vous conseille donc plutôt de vous dirigez vers la documentation officielle ainsi vous pourrez bénéficier de source officielle et de mise à jour régulière.
+        </p>
+    </div>
+
+    <footer>
+        <div class="reseaux">
+            <ul class="reseauxUl">
+                <li class=".reseauxLi"><i class="fab fa-facebook"></i></li>
+                </br>
+
+                <li class=".reseauxLi"><i class="fab fa-whatsapp"></i></li>
+
+                <li class=".reseauxLi"><i class="fab fa-github"></i></li>
+
+                <li class=".reseauxLi"><i class="fab fa-twitter"></i></li>
+            </ul>
+        </div>
+    </footer>
+
     <script src="app.js"></script>
+
 
 
 </body>

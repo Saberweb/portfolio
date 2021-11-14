@@ -11,7 +11,7 @@ function anim(){
     ctx.clearRect(0,0,canvas.clientWidth,canvas.height);
     ctx.beginPath();
     ctx.arc(x, 75, 20, 0, 2*Math.PI);
-    ctx.strokeStyle = "pink";
+    ctx.strokeStyle = "red";
     ctx.fillStyle = "pink";
     ctx.lineWidth = 10;
     ctx.fill();
@@ -24,14 +24,5 @@ function anim(){
 }
 anim();
 
-function toggle() {
-    "use strict";
-     var x = document.querySelector(".menu");
- 
-     if (x.className === "menu") {
-         x.className += " affiche";
-     } else {
-         x.className = "menu";
-     }
- }
 
+ 
