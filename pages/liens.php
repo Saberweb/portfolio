@@ -25,7 +25,7 @@
     <p class="entete"><img src="" /></p>
 
     <div class="liens">
-        <ul class="lien">
+    <ul class="lien">
             <li class="liens2">
                 <p>liens vers <a href="https://www.w3schools.com/" title="vous serez redirigé vers le site officiel" target="_blank">w3schools</a></p>
             </li>
@@ -47,14 +47,15 @@
             </li>
 
             <li class="liens2">
-                <p>liens vers <a href="https://developer.mozilla.org/fr/" title="vous serez redirigé vers le site officiel" target="_blank">mdn/a>
+                <p>liens vers <a href="https://developer.mozilla.org/fr/" title="vous serez redirigé vers le site officiel" target="_blank">mdn</a>
             </li>
-
-            <li class="liens2">
-                <p> liens vers <a href="http://fr.html.net/" title="vous serez redirigé vers le site officiel" target="_blank"> html.net</a>
-            </li>
+            
             <li class="liens2">
                 <p>liens vers <a href="https://www.w3.org/" title="vous serez redirigé vers le site officiel" target="_blank">w3</a>
+    
+            </li>
+            <li class="liens2">
+                <p> liens vers <a href="http://fr.html.net/" title="vous serez redirigé vers le site officiel" target="_blank"> html.net</a>
             </li>
 
         </ul>

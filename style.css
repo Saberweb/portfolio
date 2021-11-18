@@ -6,11 +6,10 @@ body {
 }
 
 nav {
-  width: 90%;
-  margin: 20px auto 40px auto;
-  background-color: whitesmoke;
-
+  position: sticky;
   top: 0px;
+  width: 100%;
+  margin: 10px auto 40px auto;
   border-radius: 10px, 10px, 10px, 10px;
   background-color: transparent;
 }
@@ -153,10 +152,6 @@ h4 {
   margin-bottom: 101px;
 }
 
-#msg_contenu a:hover {
-  color: rgb(112, 8, 8);
-}
-
 #msg_mail {
   width: 200px;
   height: 50px;
@@ -168,6 +163,16 @@ h4 {
 #msg_contenu.zone_msg {
   width: 200px;
   height: 100px;
+}
+/* #msg_contenu {
+  background-color: black;
+} */
+#msg_envoyer:hover {
+  color: black;
+  background-color: salmon;
+}
+.div_input_form {
+  color: black;
 }
 
 a[title] {
@@ -190,7 +195,7 @@ p {
 * {
   color: white;
 }
-input:focus {
+input:focus, textarea:focus {
   background-color: salmon;
 }
 

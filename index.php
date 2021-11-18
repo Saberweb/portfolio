@@ -19,6 +19,9 @@ if (!isset($_GET['pages'])) {
         case "galeries":
             include_once "pages/galeries.php";
             break;
+            case "admin":
+                include_once "pages/admin.php";
+                break; 
         default:
             include_once "pages/accueil.php";
     }
