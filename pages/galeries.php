@@ -8,7 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="style.css" />
-    <title></title>
+    <script defer src="script.js"></script>
+    <script defer src="script.js"></script>
 </head>
 
 <body>
@@ -21,45 +22,26 @@
     include "menu.php";
     ?>
 
-    <h2>Bienvenue sur notre page galerie</h2>
+    <h2>Bienvenue sur ma page galerie</h2>
 
 
-    <div class="galerie">
 
-        <figure id="photo1">
-            <a href="images/background2.jpg" data-lightbox="galerie" data-title="Projet 1">
-                <img src="images/background2.jpg" alt="Projet 1" width="480" />
-            </a>
-            <figcaption>Projet 1 </figcaption>
-        </figure>
+    <div class="containeur">
 
 
-        <figure id="photo2">
-            <a href="images/background2.jpg" data-lightbox="galerie" data-title="Projet 2">
-                <img src="images/background2.jpg" alt="Projet 2" width="480" />
-            </a>
-            <figcaption>Projet 2</figcaption>
-        </figure>
 
-
-        <figure id="photo3">
-            <a href="images/background2.jpg" data-lightbox="galerie" data-title="Projet 3">
-                <img src="images/background2.jpg" alt="Projet 3" width="480" />
-            </a>
-            <figcaption>Projet 3</figcaption>
-        </figure>
-
-
-        <figure id="photo4">
-            <a href="images/background2.jpg" data-lightbox="galerie" data-title="Projet 4">
-                <img src="images/background2.jpg" alt="Projet 4" width="480" />
-            </a>
-            <figcaption>Projet 4</figcaption>
+        <div class="grid">
+            <img src="https://source.unsplash.com/400x400?mountain">
+            <img src="https://source.unsplash.com/400x400?nature">
+            <img src="https://source.unsplash.com/400x400?valley">
+            <img src="https://source.unsplash.com/400x400?beach">
+            <img src="https://source.unsplash.com/400x400?ocean">
+            <img src="https://source.unsplash.com/400x400?water">
+            <img src="https://source.unsplash.com/400x400?trees">
+            <img src="https://source.unsplash.com/400x400?lake">
+        </div>
 
     </div>
-    </main>
-    <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
-
 </body>
 
 </html>

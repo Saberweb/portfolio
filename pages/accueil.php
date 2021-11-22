@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shalimar&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0c87a70838.js" crossorigin="anonymous"></script>
-    <title></title>
+
 </head>
 
 <body>
@@ -44,12 +44,11 @@
 
         <p>
             </br>
-            Vous trouverez sur celui-ci plusieurs pages avec un contenue différent.</br>
+            Vous trouverez sur celui-ci plusieurs pages avec un contenu différent.</br>
             Une page d'accueil avec une courte présentation de ma personne.</br>
-            Une page galerie avec quelque photo.</br>
-            Une pages liens avec les liens cliquable qui vous redirigeront sur les sources.</br>
-            Une page tutoriels avec une analyse de tuto.</br>
-            Une page de contact pour pouvoir nous contacter.</br>
+            Une page galerie avec quelques photos.</br>
+            Une page liens avec les liens cliquables qui vous redirigeront sur les sources.</br>
+            Une page tutoriels avec une analyse de tutos</br>
             Une page CV pour plus d’informations sur ma personne.</br>
         </p>
 

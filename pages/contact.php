@@ -23,44 +23,28 @@
 
     <p><img src="" alt="" /></p>
 
-    <!-- <h3>Utiliser le formulaire ci dessous pour nous laisse un commentaire :</h3>
+    <h2>Utiliser le formulaire ci dessous pour nous laisse un commentaire :</h2>
 
-    <form id="form1" name="form1" method="post" action="contact.php" class="contact">
-        <div><label for="frm1_nom">NOM : </label><input name="nom" type="text" id="frm1_nom" size="50" placeholder="Indiquez votre nom" /></div>
-        <div><label for="frm1_prenom">PRENOM : </label><input name="prenom" type="text" id="frm1_prenom" size="50" maxlength="50" /></div>
-        <div><label for="frm1_ville">VILLE : </label><input name="ville" type="text" id="frm1_ville" size="50" /></div>
-        <div><label for="frm1_email">E-MAIL : </label><input name="email" type="email" id="frm1_email" size="50" /></div>
-        <div><label for="frm1_message">COMMENTAIRES : </label><textarea name="message" id="frm1_message" cols="40" rows="5"></textarea></div>
-        <div><input type="submit" id="frm1_submit" value="Envoyer votre message" /></div>
-    </form> -->
 
     <div id="grille">
-        <form id="contact" name="contact" method="post" action="contact.php">
-            <div class="div_txt_form">
-                Votre nom :
-            </div>
-            <div class="div_input_form">
-                <input type="text" name="msg_mail" id="msg_mail" maxlength="70" />
-            </div>
-            <div class="div_txt_form">
-                Votre localité :
-            </div>
-            <div class="div_input_form">
-                <input type="text" name="msg_sujet" id="msg_sujet" maxlength="70" />
-            </div>
-            <div class="div_msg">
-                <br /><strong>Votre message :<strong><br />
-                        <textarea id="msg_contenu" name="msg_contenu" cols="20" rows="5" class="zone_msg"></textarea>
-            </div>
+        <?php
+        if (isset($message)) :
+        ?>
+            <h3><?= $message ?></h3>
+            <h4>Pour en savoir plus sur les mails</h4>
+            <p><a href="https://www.php.net/manual/fr/function.mail.php" target="_blank">https://www.php.net/manual/fr/function.mail.php</a></p>
+        <?php
+        endif;
+        ?>
+        <form action="" name="contact" method="POST">
 
-            <div class="div_input_form">
-                <input type="button" style="text-align:center,black;" name="msg_envoyer" id="msg_envoyer" value="Envoyer le message" onclick="validation_avt_envoi();" />
-            </div>
+            <input name="thename" placeholder="Votre nom" class="div_txt_form" required /><br>
+            <input name="themail" placeholder="Votre adresse mail" class="div_input_form" required /><br>
+            <textarea name="thetext" placeholder="Votre texte" class="div_msg" required></textarea><br>
+            <input type="submit" value="Envoyer votre message" class="div_input_form"></br>
         </form>
-    </div>
 
-    </main>
-    <!-- <?php include('footer.php'); ?> -->
+    </div>
 </body>
 
 </html>

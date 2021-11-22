@@ -6,5 +6,6 @@
     <li><a href="./?pages=tuto">Tutoriels</a></li>
     <li><a href="./?pages=liens">Liens</a></li>
     <li><a href="./?pages=contact">Contacts</a></li>
+    <li><a href="./?pages=login">login</a></li>
   </ul>
 </nav>

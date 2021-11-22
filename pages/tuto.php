@@ -26,11 +26,11 @@
         <p> Comment dessiner avec l’API de dessin et d’animation (Canvas)?</p>
     </div>
 
-    <p class="pptuto">Voici à votre disposition deux vidéos tutoriel sur l'API Canvas que j'ai analyser.</br> Vous trouverez ma critique à coté de chaque vidéo et en bonus ma propre analyse et définition de l'API. </p>
+    <p class="pptuto">Voici à votre disposition deux vidéos tutoriel sur l'API Canvas que j'ai analysées.</br> Vous trouverez ma critique à coté de chaque vidéo et en bonus ma propre analyse et définition de l'API. </p>
 
     <p class="pptuto1">Enjoy! </p>
 
-    <h4>J'ai reproduis grace au tuto une petite animation pour que vous puissiez vous faire une des nombreuse chose que vous pouvez produire avec Canvas </h4>
+    <h4>J'ai reproduit grace au tuto une petite animation pour que vous puissiez vous faire une des nombreuses choses que vous pouvez produire avec Canvas </h4>
 
     <canvas id="canvas"> </canvas>
 
@@ -41,9 +41,9 @@
 
 
             <p class="analyse1">Tutoriel n°1</br>
-                Après avoir essayé plusieurs tuto afin de comprendre l’API canvas je suis tombé sur celui-ci et je vous le recommande à 100% je l’ai trouvé très claire très concis.</br>
-                La personne qui à réaliser ce tuto donne également des cours en ligne pour approfondir le sujet et je trouve sa géniale pour les personnes que sa intéresse.</br>
-                Sinon j’ai également apprécier la qualité audio visuelle.
+                Après avoir essayé plusieurs tutos afin de comprendre l’API canvas je suis tombé sur celui-ci et je vous le recommande à 100% je l’ai trouvé très clair et très concis.</br>
+                La personne qui à réalisé ce tuto donne également des cours en ligne pour approfondir le sujet et je trouve 9 ça géniale pour les personnes que ça intéresse.</br>
+                Sinon j’ai également apprécié la qualité audiovisuelle.
 
 
             </p>
@@ -56,9 +56,9 @@
         </ul>
 
         <p class="analyse2">Tutoriel n°2</br>
-            Ce tutoriel ma parus beaucoup moins bien explicatif par rapport au premier mais il reste également très instructif.</br>
-            Il est également moins concis par rapport au premier et moins complet.</br>
-            Je vous conseille donc plutôt de vous dirigez vers la documentation officielle ainsi vous pourrez bénéficier de source officielle et de mise à jour régulière.
+            Ce tutoriel paru beaucoup moins bien explicatif par rapport au premier mais il reste également très instructif.</br>
+            Il est également moins par rapport au premier et moins complet.</br>
+            Je vous conseille donc plutôt de vous diriger vers la documentation officielle ainsi vous pourrez bénéficier de source officielle et de mises à jour régulières.
         </p>
     </div>
 
@@ -77,7 +77,7 @@
         </div>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 
 
 
