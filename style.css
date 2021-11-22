@@ -2,26 +2,27 @@
   margin: 0;
   padding: 0;
 }*/
-/*
+
 body {
   height: 100% auto;
   width: 100% auto;
   margin: 0;
   padding: 0;
-  background-image: url("SRuG02.webp");
-*/
-/* background: #355c7d;
+  background: #355c7d;
   background: -webkit-linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
   background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
   background-size: cover;
-} */
+}
 
 nav {
   width: 65%;
   margin: 20px auto 20px auto;
   background-color: whitesmoke;
 
+  position: sticky;
   top: 0px;
+  width: 100%;
+  margin: 10px auto 40px auto;
   border-radius: 10px, 10px, 10px, 10px;
   background-color: transparent;
 }
@@ -164,13 +165,20 @@ h4 {
   width: 200px;
   height: 100px;
 }
-.msg_contenu:hover {
-  background-color: #c06c84;
-}
+
 textarea.div_msg :hover {
   background-color: salmon;
 }
-
+/* #msg_contenu {
+  background-color: black;
+} */
+#msg_envoyer:hover {
+  color: black;
+  background-color: salmon;
+}
+.div_input_form {
+  color: black;
+}
 textarea.div_msg {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -194,7 +202,8 @@ p {
 * {
   color: white;
 }
-input:focus {
+input:focus,
+textarea:focus {
   background-color: salmon;
 }
 

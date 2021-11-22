@@ -15,10 +15,7 @@
     <header>
         <h1>Portfolio</h1>
     </header>
+
     <?php
     include "menu.php";
     ?>
-    <h2>loging</h2>
-</body>
-
-</html>

@@ -47,14 +47,15 @@
             </li>
 
             <li class="liens2">
-                <p>liensvers <a href="https://developer.mozilla.org/fr/" title="vous serez redirigé vers le site officiel" target="_blank">mdn/a>
+                <p>liens vers <a href="https://developer.mozilla.org/fr/" title="vous serez redirigé vers le site officiel" target="_blank">mdn</a>
             </li>
 
             <li class="liens2">
-                <p> lien vers <a href="http://fr.html.net/" title="vous serez redirigé vers le site officiel" target="_blank"> html.net</a>
+                <p>liens vers <a href="https://www.w3.org/" title="vous serez redirigé vers le site officiel" target="_blank">w3</a>
+
             </li>
             <li class="liens2">
-                <p>lien vers <a href="https://www.w3.org/" title="vous serez redirigé vers le site officiel" target="_blank">w3</a>
+                <p> liens vers <a href="http://fr.html.net/" title="vous serez redirigé vers le site officiel" target="_blank"> html.net</a>
             </li>
 
         </ul>
