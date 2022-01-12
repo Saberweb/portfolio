@@ -32,7 +32,7 @@
             <a href="https://fr.wikipedia.org/wiki/Portfolio" title="qu'est ce que ces un portfolio ?" target="_blank">portfolio</a> </br>
             </br>
             Je m’appelle Saber Ben Sedira je vis sur Bruxelles et je suis actuellement en formation au CF2M.
-            Je suis en pleine apprentissage de JavaScript, PHP, HTML5 et css3.
+            Je suis en pleine apprentissage de JavaScript, PHP, HTML5 et CSS3.
             J’aimerais me spécialiser dans 2 langages de programmation spécifique et vous proposer à l’avenir un travail de qualité en attendant je vous souhaite une bonne visite sur mon site et n’hésiter pas à me laisser un message via la page contacte.
             </br>
             Au plaisir de vous revoir !
